@@ -87,13 +87,13 @@ systemctl --user start rslsync_user
 
 # Download RepairR4SD
 cd "$HOME/.R4SD" || exit 1
-wget https://raw.githubusercontent.com/Tritschla/Resilio4SteamDeck/main/RepairR4SD.sh
+wget https://raw.githubusercontent.com/gsxryan/Resilio4SteamDeck/main/RepairR4SD.sh
 chmod +x "$HOME/.R4SD/RepairR4SD.sh"
 
 
 # Download of Uninstall-R4SD
 cd "$HOME/.R4SD" || exit 1
-wget https://raw.githubusercontent.com/Tritschla/Resilio4SteamDeck/main/UninstallR4SD.sh
+wget https://raw.githubusercontent.com/gsxryan/Resilio4SteamDeck/main/UninstallR4SD.sh
 chmod +x "$HOME/.R4SD/UninstallR4SD.sh"
 
 # Creation of Desktop Shortcuts
